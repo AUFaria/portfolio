@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise about forms</title>
+    </head>
+    <body>
+        <h1>Faça sua pizza</h1>
+        <h4>Bem vindo(a) ao meu restaurante!</h4>
+        <form method="POST" action="" id='avaliar'>
+            <label for="name">Favor inserir seu nome:</label>
+            <input type="text" name="name" required>
+            <p>Selecione a massa:</p>
+            <input type="radio" value="standard" name="pizzadough" required>Tradicional</input>
+            <input type="radio" value="thin" name="pizzadough" required>Fina</input>
+            <p>Selecione o sabor:</p>
+            <input list="pizzaflavor" name="flavor" required>
+            <datalist id="pizzaflavor">
+                <option value="Mussarela">
+                <option value="Calabresa">
+                <option value="Frango C/ Catupiry">
+                <option value="Camarão">
+                <option value="Jiló com Inhame">
+            </datalist>
+            <p>Gostaria de adicionar extras?</p>
+            <input type="checkbox" value="Ovo">Ovo</input>
+            <input type="checkbox" value="Pimentão Verde">Pimentão Verde</input>
+            <input type="checkbox" value="Azeitona">Azeitona</input>
+            <input type="checkbox" value="Bacon">Bacon</input>
+            <p>Algo á mais?</p>
+            <textarea style="resize: none;" name="extra" rows="5" cols="30" placeholder="Exemplo: Tirar cebola, adicionar maionese, etc."></textarea>
+            <br><br>
+            <p>Aproveite e dê uma nota pra gente!</p>
+            <label for="rating">Péssimo</label>
+            <input type="range" max="4" name="rating">
+            <label for="rating">Perfeito</label>
+            <input type="submit" value="Pronto">
+            <script>
+                var form = document.getElementById('avaliar')
+                form.addEventListener('submit', function(){
+                    alert('Obrigado por usar nosso restaurante!')
+                })
+            </script>
+        </form>
+    </body>
+</html>

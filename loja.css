@@ -1,0 +1,150 @@
+@font-face {
+    font-family: GreatVibes;
+    src: url(GreatVibes-Regular.ttf);
+}
+
+@font-face {
+    font-family: Oswaldlight;
+    src: url(Oswald-Light.ttf);
+    font-weight: light;
+}
+
+* {
+    box-sizing: border-box;
+    /* border: 1px solid black;
+    padding: 10px; */
+}
+
+html, body,
+h1, h2, h3, h4, h5, h6,
+p, a,
+ol, ul, li,
+form, label, legend,
+audio, video {
+  margin: 0;
+  padding: 0;
+}
+
+.header-container {
+    background: linear-gradient(to right, #a806c9, #ee88e5);
+    height: 175px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-container {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.help-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.legal-container {
+    background-color: black;
+    margin-top: 10px;
+    padding: 8px 0;
+}
+
+.brand {
+    margin-bottom: 15px;
+    font-family: GreatVibes;
+    font-size: 65px;
+    color: white;
+    text-align: right;
+}
+
+.cphrase {
+    font-family: Oswaldlight;
+    font-weight: lighter;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(248, 214, 63);
+    
+}
+
+.links a {
+    font-family: Oswaldlight;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.links a:hover {
+    color: skyblue;
+}
+
+.login {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-top: 10px;
+}
+
+.email-field {
+    padding: 0 10px;
+    margin-right: 10px;
+}
+
+.pw-field {
+    padding: 0 10px;
+}
+
+.submit-button {
+    margin-left: 20px;
+}
+
+.register {
+    font-family: Oswaldlight;
+    font-size: 18px;
+    color: silver;
+    margin-top: 8px;
+    margin-left: 23%;
+    text-decoration: none;
+}
+
+.restore-pw {
+    font-family: Oswaldlight;
+    font-size: 18px;
+    color: silver;
+    margin-top: 8px;
+    padding: 0 20px;
+    text-decoration: none;
+}
+
+h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+    width: 50%;
+    margin-left: 25%;
+    font-size: 20px;
+}
+
+.legal-content p {
+    font-family: Oswaldlight;
+    font-size: 15px;
+    color: white;
+    text-align: end;
+}

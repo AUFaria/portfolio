@@ -1,0 +1,56 @@
+html {
+    font-family: 'Calibri';
+    background: linear-gradient(rgb(110, 101, 240), rgb(61, 157, 236));
+    height: 100%;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    width: 350px;
+    margin-left: 37.5%;
+}
+
+p {
+    text-align: center;
+    font-family: Verdana;
+}
+
+#spacer{
+    visibility: hidden;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+#tabela th {
+    border: 2px solid black;
+    font-weight: bold;
+    padding: 5px 20px;
+}
+
+#tabela td {
+    border: 2px solid black;
+    font-weight: bold;
+    padding: 20px 5px;
+}
+
+img {
+    width: 20px;
+    height: 20px;
+}
+
+/* 
+Bismor: https://static.wikia.nocookie.net/deeprockgalactic_gamepedia_en/images/3/31/Bismor_icon.png/revision/latest/scale-to-width-down/20?cb=20180519141013
+Magnite: https://static.wikia.nocookie.net/deeprockgalactic_gamepedia_en/images/1/14/Magnite_icon.png/revision/latest/scale-to-width-down/20?cb=20180519141130
+Umanite: https://static.wikia.nocookie.net/deeprockgalactic_gamepedia_en/images/1/1a/Umanite_icon.png/revision/latest/scale-to-width-down/20?cb=20180519141147
+Enor Pearl: https://static.wikia.nocookie.net/deeprockgalactic_gamepedia_en/images/4/41/Enor_pearl_icon.png/revision/latest/scale-to-width-down/20?cb=20180519141103
+Jadiz: https://static.wikia.nocookie.net/deeprockgalactic_gamepedia_en/images/8/82/Jadiz_icon.png/revision/latest/scale-to-width-down/20?cb=20180519140930
+Croppa: https://static.wikia.nocookie.net/deeprockgalactic_gamepedia_en/images/4/40/Croppa_icon.png/revision/latest/scale-to-width-down/20?cb=20180519141042
+Credits: https://static.wikia.nocookie.net/deeprockgalactic_gamepedia_en/images/a/af/Credit.png/revision/latest/scale-to-width-down/20?cb=20180519133847
+*/
+
+/* text-decoration: line-through; */

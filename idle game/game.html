@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>Idle Game</title>
+
+        <style>
+            html {
+                background: black; 
+                color: white; 
+                font-family: Calibri; 
+                font-size: 20px;
+            }
+            
+            .upgrades {
+                border: 1px solid white;
+                height: 82px;
+                width: 150px;
+                text-align: center;
+                margin-bottom: 5px;
+            }
+
+            .button {
+                margin-top: 10px;
+            }
+
+            .container {
+                display: flex;
+                flex-direction: row;
+                width: 100%;
+                padding-top: 10px;
+            }
+
+            .money-area {
+                margin-right: auto;
+            }
+
+            .upgrade-list {
+                display: block;
+            }
+        </style>
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="money-area">
+                <div class="money" id='money'></div>
+            </div>
+
+            <div class="upgrade-list">
+                <div class="upgrades" id="upgrade1"></div>
+                <div class="upgrades" id="upgrade2"></div>
+                <div class="upgrades" id="upgrade3"></div>
+                <div class="upgrades" id="upgrade4"></div>
+                <div class="upgrades" id="upgrade5"></div>
+                <div class="upgrades" id="upgrade6"></div>
+            </div>
+        </div>
+
+        <script src="./game.js"></script>
+    </body>
+</html>
